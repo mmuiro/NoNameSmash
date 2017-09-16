@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteSheetIntro", "SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro.csproj", "{22052085-411F-4D19-BE17-C415BCAD360A}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SpriteSheetIntroContent", "SpriteSheetIntro\SpriteSheetIntroContent\SpriteSheetIntroContent.contentproj", "{8A531BB2-3E92-4C06-8EC9-5011B567B43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22052085-411F-4D19-BE17-C415BCAD360A}.Debug|x86.ActiveCfg = Debug|x86
+		{22052085-411F-4D19-BE17-C415BCAD360A}.Debug|x86.Build.0 = Debug|x86
+		{22052085-411F-4D19-BE17-C415BCAD360A}.Release|x86.ActiveCfg = Release|x86
+		{22052085-411F-4D19-BE17-C415BCAD360A}.Release|x86.Build.0 = Release|x86
+		{8A531BB2-3E92-4C06-8EC9-5011B567B43D}.Debug|x86.ActiveCfg = Debug|x86
+		{8A531BB2-3E92-4C06-8EC9-5011B567B43D}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

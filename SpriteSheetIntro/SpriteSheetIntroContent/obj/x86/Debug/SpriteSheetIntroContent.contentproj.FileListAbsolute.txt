@@ -1,0 +1,4 @@
+C:\Users\JoeyLi\Documents\Visual Studio 2010\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\obj\x86\Debug\SpriteSheetIntroContent.contentprojResolveAssemblyReference.cache
+C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\obj\x86\Debug\SpriteSheetIntroContent.contentprojResolveAssemblyReference.cache
+C:\Users\VisitorDL12\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\obj\x86\Debug\SpriteSheetIntroContent.contentprojResolveAssemblyReference.cache
+C:\Users\VisitorDL8\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\obj\x86\Debug\SpriteSheetIntroContent.contentprojResolveAssemblyReference.cache

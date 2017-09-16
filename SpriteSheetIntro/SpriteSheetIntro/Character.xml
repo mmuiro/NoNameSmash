@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Character>
+  <Animation Name="Idle" Speed="0" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="0" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="Walking" Speed="50" Looping="true">
+    <Frame>
+      <SourceRectangle x="0" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="NeutralSpecial" Speed="50" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="80" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="80" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="80" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="80" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="80" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="80" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="120" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="120" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="120" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="120" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="120" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="120" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="160" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="160" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="160" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="160" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="160" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="160" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="SideSmash" Speed="30" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="200" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="200" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="200" width="40" height="40"/>
+      <Origin x="10" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="200" width="40" height="40"/>
+      <Origin x="14" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="200" width="40" height="40"/>
+      <Origin x="23" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="200" width="40" height="40"/>
+      <Origin x="33" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="240" width="40" height="40"/>
+      <Origin x="33" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="240" width="40" height="40"/>
+      <Origin x="31" y="38"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="240" width="40" height="40"/>
+      <Origin x="23" y="33"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="240" width="40" height="40"/>
+      <Origin x="12" y="30"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="240" width="40" height="40"/>
+      <Origin x="9" y="35"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="240" width="40" height="40"/>
+      <Origin x="9" y="37"/>
+    </Frame>
+  </Animation>
+  <Animation Name="DownSmash" Speed="100" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="280" width="40" height="40"/>
+      <Origin x="18" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="280" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="280" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="280" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="280" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="280" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="UpSmash" Speed="100" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="320" width="40" height="40"/>
+      <Origin x="17" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="320" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="320" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="320" width="40" height="40"/>
+      <Origin x="19" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="SideSpecial" Speed="30" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="360" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="360" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="360" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="360" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="400" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="400" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="400" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="400" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="400" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="400" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="360" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="360" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="360" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="400" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="400" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="400" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="400" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="400" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="400" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="360" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="360" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="360" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="400" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="400" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="400" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="400" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="400" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="400" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+    </Frame>
+  </Animation>
+  <Animation Name="DownSpecial" Speed="60" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="440" width="40" height="40"/>
+      <Origin x="22" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="440" width="40" height="40"/>
+      <Origin x="22" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="440" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="440" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="440" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="440" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="DownSpecialProjectile" Speed="70" Looping="false">
+      <Frame>
+        <SourceRectangle x="40" y="0" width="40" height="40"/>
+        <Origin x="0" y="40"/>
+      </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="0" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="0" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="0" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="0" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="0" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="480" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="480" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="480" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="480" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="480" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="480" width="40" height="40"/>
+      <Origin x="0" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="NeutralSmash" Speed="40" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="520" width="40" height="40"/>
+      <Origin x="9" y="30"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="520" width="40" height="40"/>
+      <Origin x="9" y="30"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="520" width="40" height="40"/>
+      <Origin x="9" y="30"/>
+    </Frame>
+  </Animation>
+  <Animation Name="UpSpecial" Speed="40" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="560" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="560" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="560" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="560" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="560" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="560" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="600" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="Disabled" Speed="150" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="640" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="640" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="Shield" Speed="250" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="680" width="40" height="40"/>
+      <Origin x="12" y="38"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="680" width="40" height="40"/>
+      <Origin x="12" y="38"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="680" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="680" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="680" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="680" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="720" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="720" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="720" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="720" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="720" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="680" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="Dodge" Speed="75" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="760" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="760" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="760" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="760" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="760" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+  </Animation>
+  <Animation Name="ShieldStun" Speed="150" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="800" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="800" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="800" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="800" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="800" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="800" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="840" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="840" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="840" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="840" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="840" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="840" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="880" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+        <Frame>
+      <SourceRectangle x="40" y="880" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="880" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="880" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="880" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="880" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="920" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+    </Frame>
+        <Frame>
+      <SourceRectangle x="40" y="920" width="40" height="40"/>
+      <Origin x="11" y="40"/>
+    </Frame>
+  </Animation>
+</Character>

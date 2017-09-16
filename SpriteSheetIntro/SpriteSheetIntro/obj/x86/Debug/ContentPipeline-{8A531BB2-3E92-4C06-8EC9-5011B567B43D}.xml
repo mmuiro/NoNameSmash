@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>dude_animation_sheet.png</Source>
+      <Name>dude_animation_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\dude_animation_sheet.xnb</Output>
+      <Time>2015-06-27T10:16:28-07:00</Time>
+    </Item>
+    <Item>
+      <Source>E-sword.png</Source>
+      <Name>E-sword</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\E-sword.xnb</Output>
+      <Time>2015-06-27T10:28:48-07:00</Time>
+    </Item>
+    <Item>
+      <Source>cs.png</Source>
+      <Name>cs</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\cs.xnb</Output>
+      <Time>2015-09-05T14:08:26-07:00</Time>
+    </Item>
+    <Item>
+      <Source>cs1.png</Source>
+      <Name>cs1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\cs1.xnb</Output>
+      <Time>2015-09-12T14:09:28-07:00</Time>
+    </Item>
+    <Item>
+      <Source>sword.png</Source>
+      <Name>sword</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\sword.xnb</Output>
+      <Time>2015-09-12T14:31:58-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ex.png</Source>
+      <Name>ex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\ex.xnb</Output>
+      <Time>2016-01-16T14:38:18-08:00</Time>
+    </Item>
+    <Item>
+      <Source>COMBO1.png</Source>
+      <Name>COMBO1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\COMBO1.xnb</Output>
+      <Time>2016-07-23T14:26:28-07:00</Time>
+    </Item>
+    <Item>
+      <Source>platform2.png</Source>
+      <Name>platform2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\platform2.xnb</Output>
+      <Time>2016-04-16T14:22:56-07:00</Time>
+    </Item>
+    <Item>
+      <Source>platform3.png</Source>
+      <Name>platform3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\platform3.xnb</Output>
+      <Time>2016-07-09T14:19:32-07:00</Time>
+    </Item>
+    <Item>
+      <Source>PlatformblockLarge.png</Source>
+      <Name>PlatformblockLarge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformblockLarge.xnb</Output>
+      <Time>2016-07-30T10:20:22-07:00</Time>
+    </Item>
+    <Item>
+      <Source>PlatformBlockMedium.png</Source>
+      <Name>PlatformBlockMedium</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformBlockMedium.xnb</Output>
+      <Time>2016-07-30T10:15:38-07:00</Time>
+    </Item>
+    <Item>
+      <Source>PlatformMBlock.png</Source>
+      <Name>PlatformMBlock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformMBlock.xnb</Output>
+      <Time>2016-07-30T10:34:04-07:00</Time>
+    </Item>
+    <Item>
+      <Source>PlatformSLlayer.png</Source>
+      <Name>PlatformSLlayer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformSLlayer.xnb</Output>
+      <Time>2016-07-30T10:34:14-07:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2016-06-11T13:35:54-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{8A531BB2-3E92-4C06-8EC9-5011B567B43D}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-06-09T11:39:16.7979365-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
