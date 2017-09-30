@@ -132,6 +132,18 @@ namespace SpriteSheetIntro
             }
 
         }
+        protected Rectangle _damageRectangle;
+            public Rectangle DamageRectangle
+        {
+            get
+            {
+                return _damageRectangle;
+            }
+            set
+            {
+                _damageRectangle = value;
+            }
+        }
 
         protected Vector2 _scale;
         public Vector2 Scale
@@ -226,6 +238,7 @@ namespace SpriteSheetIntro
             _effects = SpriteEffects.None;
             _rotation = 0;
             _sourceRectangle = new Rectangle(0, 0, image.Width, image.Height);
+            _damageRectangle = new Rectangle(0, 0, 0, 0);
             _boundingBox = new Rectangle((int)_position.X, (int)_position.Y, _sourceRectangle.Width, _sourceRectangle.Height);
             if (pixel == null)
             {
@@ -236,12 +249,21 @@ namespace SpriteSheetIntro
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_image, _position, _sourceRectangle, _color, _rotation, _origin, _scale, _effects, _layerDepth);
+            spriteBatch.Draw(_image,_position, _sourceRectangle,_color, _rotation, _origin, _scale, _effects, _layerDepth);
         }
 
-        public virtual void DrawHitbox(SpriteBatch spriteBatch)
+        public virtual void DrawHitbox(SpriteBatch spriteBatch, GraphicsDevice graphicsDevice)
         {
-            spriteBatch.Draw(_image, _boundingBox, Color.Lerp(Color.Red, Color.Transparent, .5f));
+            Texture2D pixel = new Texture2D(graphicsDevice, 1, 1);
+            spriteBatch.Draw(pixel, _boundingBox, Color.Lerp(Color.Red, Color.Transparent, .5f));
+        }
+
+        public virtual void DrawHitbox(SpriteBatch spriteBatch, GraphicsDevice graphicsDevice, Color color)
+        {
+            Texture2D pixel = new Texture2D(graphicsDevice, 1, 1);
+            pixel.SetData<Color>(new Color[] { Color.White });
+
+            spriteBatch.Draw(pixel, _boundingBox, Color.Lerp(color, Color.Transparent, .5f));
         }
 
         public virtual void Update(GameTime gameTime)

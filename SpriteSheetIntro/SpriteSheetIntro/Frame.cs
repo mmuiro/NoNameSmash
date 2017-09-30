@@ -24,16 +24,30 @@ namespace SpriteSheetIntro
             set { origin = value; }
         }
 
-        public Frame(Rectangle sourceRectangle)
-            : this(sourceRectangle, Vector2.Zero)
+        private Rectangle damageRectangle;
+
+        /// <summary>
+        /// Damage HitBox:
+        /// In XML: The HitBox element describes where the hitbox is RELATIVE TO THE PLAYER'S ORIGIN
+        /// </summary>
+        public Rectangle DamageRectangle
+        {
+            get { return damageRectangle; }
+            set { damageRectangle = value; }
+        }
+           
+
+        public Frame(Rectangle sourceRectangle, Rectangle damageRectangle)
+            : this(sourceRectangle, Vector2.Zero, damageRectangle)
         {}
 
-        //public Frame(Rectangle sourceRectangle, Vector2 origin = default(Vector2))
+        public Frame(Rectangle sourceRectangle, Vector2 origin = default(Vector2)) { }
         
-        public Frame(Rectangle sourceRectangle, Vector2 origin)
+        public Frame(Rectangle sourceRectangle, Vector2 origin, Rectangle damageRectangle)
         {
             this.sourceRectangle = sourceRectangle;
             this.origin = origin;
+            this.damageRectangle = damageRectangle;
         }
     }
 }

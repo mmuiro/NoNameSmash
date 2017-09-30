@@ -16,6 +16,12 @@ namespace SpriteSheetIntro
             }
         }
 
+        //This might need to be moved into an "AttackAnimation" class
+        
+        
+        public AnimationType AnimationType { get; private set; }
+        public int PlayerID { get; set;  }
+
         public List<Frame> Frames = new List<Frame>();
 
         public TimeSpan AnimationSpeed { get; set; }
@@ -23,18 +29,20 @@ namespace SpriteSheetIntro
         protected int currentFrameIndex;
         public bool Looping { get; set; }
 
-        public event EventHandler AnimationFinished;
+        public event EventHandler<AnimationEventArgs> AnimationFinished;
 
-        public Animation(List<Frame> frames)
-            :this(frames, TimeSpan.FromMilliseconds(250)){ }
+        public Animation(List<Frame> frames, AnimationType animationType)
+            : this(frames, TimeSpan.FromMilliseconds(250), animationType) { }
 
-        public Animation(List<Frame> frames, TimeSpan animationSpeed, bool looping = true)
+        public Animation(List<Frame> frames, TimeSpan animationSpeed, AnimationType animationType, bool looping = true)
         {
             Frames = frames;
             AnimationSpeed = animationSpeed;
             animationTime = TimeSpan.Zero;
             currentFrameIndex = 0;
             Looping = looping;
+
+            this.AnimationType = animationType;
         }
 
         public virtual void Update(GameTime gameTime)
@@ -47,11 +55,10 @@ namespace SpriteSheetIntro
                 if (currentFrameIndex >= Frames.Count)
                 {
                     currentFrameIndex = Looping ? 0 : Frames.Count - 1;
-                    if (AnimationFinished != null)
-                    {
-                        AnimationFinished(this, EventArgs.Empty);
-                    }
+                    AnimationFinished?.Invoke(this, new AnimationEventArgs(this.AnimationType, PlayerID));
                 }
+
+                
             }
         }
 

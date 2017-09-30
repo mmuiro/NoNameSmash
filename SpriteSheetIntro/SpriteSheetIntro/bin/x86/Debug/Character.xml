@@ -4,622 +4,976 @@
     <Frame>
       <SourceRectangle x="0" y="0" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="Walking" Speed="50" Looping="true">
+  </Animation>done
+  <Animation Name="Walking" Speed="150" Looping="true">
     <Frame>
       <SourceRectangle x="0" y="40" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="40" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="40" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="40" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="40" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="40" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="1000" y="0" width="0" height="0"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="NeutralSpecial" Speed="50" Looping="false">
+  </Animation>done
+  <Animation Name="Running" Speed="50" Looping="true">
+    <Frame>
+      <SourceRectangle x="0" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="40" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+  </Animation>done
+  1<Animation Name="NeutralSpecial" Speed="30" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="80" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="5" y="-11" width="24" height="11"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="80" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="6" y="-17" width="22" height="17"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="80" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="7" y="-21" width="16" height="20"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="80" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="15" y="-29" width="14" height="27"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="80" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="0" y="-32" width="16" height="22"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="80" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="0" y="-32" width="16" height="22"></Hitbox>
     </Frame>
+  </Animation>done
+  2<Animation Name="NeutralSpecial2" Speed="30" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="120" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="2" y="-33" width="6" height="24"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="120" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="4" y="-30" width="13" height="27"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="120" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="0" y="-27" width="24" height="13"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="120" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="2" y="-27" width="25" height="18"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="120" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="7" y="-17" width="20" height="15"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="120" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x="7" y="-17" width="20" height="15"></Hitbox>
     </Frame>
+  </Animation>done
+  3<Animation Name="NeutralSpecial3" Speed="30" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="160" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="-2" y ="-7" width="24" height="5"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="160" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="-2" y ="-7" width="24" height="5"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="160" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="2" y ="-8" width="25" height="5"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="160" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="4" y ="-8" width="25" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="160" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="4" y ="-10" width="26" height="9"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="160" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="4" y ="-9" width="26" height="7"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="SideSmash" Speed="30" Looping="false">
+  </Animation>done
+  4<Animation Name="SideSmash" Speed="17" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="200" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x ="10" y ="-26" width="0" height="0"></Hitbox>w=3 h=5
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="200" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x ="-2" y ="-31" width="0" height="0"></Hitbox>w=10 h=15
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="200" width="40" height="40"/>
       <Origin x="10" y="40"/>
+      <Hitbox x ="-7" y ="-34" width="0" height="0"></Hitbox>w=16 h=17
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="200" width="40" height="40"/>
       <Origin x="14" y="40"/>
+      <Hitbox x ="-14" y ="-12" width="0" height="0"></Hitbox>w=20 h=13
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="200" width="40" height="40"/>
       <Origin x="23" y="40"/>
+      <Hitbox x ="-21" y ="-32" width="0" height="0"></Hitbox>w=24 h=13
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="200" width="40" height="40"/>
       <Origin x="33" y="40"/>
+      <Hitbox x ="-28" y ="-26" width="0" height="0"></Hitbox>w=26 h=13
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="240" width="40" height="40"/>
       <Origin x="33" y="40"/>
+      <Hitbox x ="-33" y ="-24" width="0" height="0"></Hitbox>w=27 h=20
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="240" width="40" height="40"/>
       <Origin x="31" y="38"/>
+      <Hitbox x ="-28" y ="-22" width="0" height="0"></Hitbox>w=14 h=21
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="240" width="40" height="40"/>
       <Origin x="23" y="33"/>
+      <Hitbox x ="-22" y ="-16" width="14" height="21"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="240" width="40" height="40"/>
       <Origin x="12" y="30"/>
+      <Hitbox x ="-11" y ="-2" width="23" height="10"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="240" width="40" height="40"/>
       <Origin x="9" y="35"/>
+      <Hitbox x ="8" y ="-10" width="19" height="15"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="240" width="40" height="40"/>
       <Origin x="9" y="37"/>
+      <Hitbox x ="13" y ="-27" width="12" height="25"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="DownSmash" Speed="100" Looping="false">
+  </Animation>done
+  5<Animation Name="DownSmash" Speed="50" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="280" width="40" height="40"/>
       <Origin x="18" y="40"/>
+      <Hitbox x="-2" y="-17" width="5" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="280" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-1" y="-16" width="3" height="12"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="280" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-6" y="-9" width="13" height="9"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="280" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-10" y="-8" width="21" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="280" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-13" y="-13" width="27" height="13"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="280" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-17" y="-20" width="35" height="20"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="UpSmash" Speed="100" Looping="false">
+  </Animation>done
+  6<Animation Name="UpSmash" Speed="100" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="320" width="40" height="40"/>
       <Origin x="17" y="40"/>
+      <Hitbox x="-13" y="-18" width="20" height="5"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="320" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-14" y="-24" width="22" height="11"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="320" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-15" y="-24" width="22" height="7"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="320" width="40" height="40"/>
       <Origin x="19" y="40"/>
+      <Hitbox x="-15" y="-24" width="22" height="3"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="SideSpecial" Speed="30" Looping="false">
+  </Animation>done
+  7<Animation Name="SideSpecial" Speed="30" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="360" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="360" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="360" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="360" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="400" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="400" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="400" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="400" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="400" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="400" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="400" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="360" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="360" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="360" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="400" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="400" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="80" y="400" width="40" height="40"/>
+      <SourceRectangle x="0" y="360" width="40" height="40"/>
       <Origin x="9" y="40"/>
-    </Frame>
-    <Frame>
-      <SourceRectangle x="120" y="400" width="40" height="40"/>
-      <Origin x="6" y="40"/>
-    </Frame>
-    <Frame>
-      <SourceRectangle x="160" y="400" width="40" height="40"/>
-      <Origin x="26" y="40"/>
-    </Frame>
-    <Frame>
-      <SourceRectangle x="200" y="400" width="40" height="40"/>
-      <Origin x="6" y="34"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="360" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="360" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
+
     <Frame>
-      <SourceRectangle x="160" y="360" width="40" height="40"/>
+      <SourceRectangle x="0" y="360" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="200" y="360" width="40" height="40"/>
+      <SourceRectangle x="40" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="0" y="400" width="40" height="40"/>
+      <SourceRectangle x="80" y="360" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="40" y="400" width="40" height="40"/>
+      <SourceRectangle x="120" y="360" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
+
     <Frame>
-      <SourceRectangle x="80" y="400" width="40" height="40"/>
+      <SourceRectangle x="0" y="360" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="120" y="400" width="40" height="40"/>
+      <SourceRectangle x="40" y="360" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="160" y="400" width="40" height="40"/>
+      <SourceRectangle x="80" y="360" width="40" height="40"/>
       <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
     </Frame>
     <Frame>
-      <SourceRectangle x="200" y="400" width="40" height="40"/>
+      <SourceRectangle x="120" y="360" width="40" height="40"/>
       <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="DownSpecial" Speed="60" Looping="false">
+
+    <Frame>
+      <SourceRectangle x="0" y="360" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="5" y="-7" width="21" height="6"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="360" width="40" height="40"/>
+      <Origin x="6" y="40"/>
+      <Hitbox x="5" y="-9" width="10" height="7"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="360" width="40" height="40"/>
+      <Origin x="26" y="40"/>
+      <Hitbox x="-26" y="-12" width="19" height="8"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="360" width="40" height="40"/>
+      <Origin x="6" y="34"/>
+      <Hitbox x="-6" y="-4" width="8" height="10"></Hitbox>
+    </Frame>
+
+  </Animation>done
+  8<Animation Name="DownSpecial" Speed="50" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="440" width="40" height="40"/>
       <Origin x="22" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="440" width="40" height="40"/>
       <Origin x="22" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="440" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="22" y="-10" width="12" height="10"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="440" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="22" y="-20" width="12" height="20"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="440" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="22" y="-15" width="25" height="15"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="440" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="35" y="-30" width="12" height="30"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="DownSpecialProjectile" Speed="70" Looping="false">
       <Frame>
-        <SourceRectangle x="40" y="0" width="40" height="40"/>
-        <Origin x="0" y="40"/>
-      </Frame>
+      <SourceRectangle x="200" y="440" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="35" y="-20" width="25" height="20"></Hitbox>
+    </Frame>
+      <Frame>
+      <SourceRectangle x="200" y="440" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="48" y="-40" width="12" height="40"></Hitbox>
+    </Frame>
+  </Animation>done
+  <Animation Name="DownSpecialProjectile" Speed="50" Looping="false">
+
     <Frame>
       <SourceRectangle x="40" y="0" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="0" width="40" height="40"/>
       <Origin x="0" y="40"/>
-    </Frame>
-    <Frame>
-      <SourceRectangle x="40" y="0" width="40" height="40"/>
-      <Origin x="0" y="40"/>
-    </Frame>
-    <Frame>
-      <SourceRectangle x="40" y="0" width="40" height="40"/>
-      <Origin x="0" y="40"/>
-    </Frame>
-    <Frame>
-      <SourceRectangle x="40" y="0" width="40" height="40"/>
-      <Origin x="0" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="480" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="2" y="-10" width="12" height="10"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="480" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="2" y="-20" width="12" height="20"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="480" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="2" y="-15" width="25" height="15"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="480" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="15" y="-30" width="12" height="30"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="480" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="15" y="-20" width="25" height="20"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="480" width="40" height="40"/>
       <Origin x="0" y="40"/>
+      <Hitbox x="28" y="-40" width="12" height="40"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="NeutralSmash" Speed="40" Looping="false">
+  </Animation>done
+  9<Animation Name="NeutralSmash" Speed="40" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="520" width="40" height="40"/>
       <Origin x="9" y="30"/>
+      <Hitbox x="7" y="-20" width="12" height="13"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="520" width="40" height="40"/>
       <Origin x="9" y="30"/>
+      <Hitbox x="8" y="-20" width="20" height="15"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="520" width="40" height="40"/>
       <Origin x="9" y="30"/>
+      <Hitbox x="7" y="-15" width="15" height="24"></Hitbox>
     </Frame>
-  </Animation>
-  <Animation Name="UpSpecial" Speed="40" Looping="false">
+  </Animation>done
+  10<Animation Name="UpSpecial" Speed="40" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="560" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="560" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="7" y="-4" width="16" height="4"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="560" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="8" y="-13" width="23" height="23"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="560" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="8" y="-19" width="18" height="15"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="560" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="9" y="-32" width="9" height="27"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="560" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="3" y="-30" width="11" height="25"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="600" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="2" y="-33" width="8" height="28"></Hitbox>
     </Frame>
-  </Animation>
+  </Animation>done
   <Animation Name="Disabled" Speed="150" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="640" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="640" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
-  </Animation>
+  </Animation>done
   <Animation Name="Shield" Speed="250" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="680" width="40" height="40"/>
       <Origin x="12" y="38"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="680" width="40" height="40"/>
       <Origin x="12" y="38"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="680" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="680" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="680" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="680" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="720" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="720" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="720" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="720" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="720" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="680" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
-  </Animation>
+  </Animation>done
   <Animation Name="Dodge" Speed="75" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="760" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="760" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="760" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="760" width="40" height="40"/>
       <Origin x="6" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="760" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
-  </Animation>
+  </Animation>done
   <Animation Name="ShieldStun" Speed="150" Looping="false">
     <Frame>
       <SourceRectangle x="0" y="800" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="800" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="800" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="800" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="800" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="800" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="840" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="40" y="840" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="840" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="840" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="840" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="840" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="880" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
-        <Frame>
+    <Frame>
       <SourceRectangle x="40" y="880" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="80" y="880" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="120" y="880" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="160" y="880" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="200" y="880" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
     <Frame>
       <SourceRectangle x="0" y="920" width="40" height="40"/>
       <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
-        <Frame>
+    <Frame>
       <SourceRectangle x="40" y="920" width="40" height="40"/>
       <Origin x="11" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
     </Frame>
-  </Animation>
+  </Animation>done
+  11<Animation Name="UpAerial" Speed="20" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="1000" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="1000" width="40" height="40"/>
+      <Origin x="12" y="37"/>
+      <Hitbox x="8" y="-37" width="14" height="22"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="1000" width="40" height="40"/>
+      <Origin x="14" y="36"/>
+      <Hitbox x="4" y="-39" width="17" height="25"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="1000" width="40" height="40"/>
+      <Origin x="20" y="38"/>
+      <Hitbox x="-19" y="-35" width="24" height="18"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="1040" width="40" height="40"/>
+      <Origin x="30" y="36"/>
+      <Hitbox x="-29" y="-33" width="20" height="21"></Hitbox>
+    </Frame>
+  </Animation>done
+  12<Animation Name="SideAerial" Speed="25" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="1080" width="40" height="40"/>
+      <Origin x="21" y="40"/>
+      <Hitbox x="-21" y="-7" width="13" height="3"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="1080" width="40" height="40"/>
+      <Origin x="14" y="38"/>
+      <Hitbox x="-14" y="-12" width="10" height="14"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="1080" width="40" height="40"/>
+      <Origin x="15" y="38"/>
+      <Hitbox x="-15" y="-13" width="12" height="15"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="1080" width="40" height="40"/>
+      <Origin x="15" y="36"/>
+      <Hitbox x="-12" y="-7" width="14" height="11"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="1080" width="40" height="40"/>
+      <Origin x="9" y="36"/>
+      <Hitbox x="-8" y="-3" width="22" height="7"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="1080" width="40" height="40"/>
+      <Origin x="12" y="33"/>
+      <Hitbox x="-10" y="-4" width="31" height="11"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="1120" width="40" height="40"/>
+      <Origin x="15" y="35"/>
+      <Hitbox x="-15" y="-6" width="35" height="11"></Hitbox>
+    </Frame>
+  </Animation>done
+  13<Animation Name="DownAerial" Speed="20" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="1160" width="40" height="40"/>
+      <Origin x="6" y="35"/>
+      <Hitbox x="-3" y="-3" width="7" height="8"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="1160" width="40" height="40"/>
+      <Origin x="6" y="33"/>
+      <Hitbox x="-4" y="-3" width="9" height="10"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="1160" width="40" height="40"/>
+      <Origin x="6" y="32"/>
+      <Hitbox x="-4" y="-2" width="9" height="10"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="1160" width="40" height="40"/>
+      <Origin x="6" y="32"/>
+      <Hitbox x="-3" y="-2" width="7" height="10"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="1160" width="40" height="40"/>
+      <Origin x="6" y="30"/>
+      <Hitbox x="-3" y="-2" width="7" height="12"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="1160" width="40" height="40"/>
+      <Origin x="6" y="29"/>
+      <Hitbox x="-3" y="-2" width="7" height="13"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="0" y="1200" width="40" height="40"/>
+      <Origin x="6" y="27"/>
+      <Hitbox x="-3" y="-2" width="7" height="15"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="1200" width="40" height="40"/>
+      <Origin x="6" y="27"/>
+      <Hitbox x="-3" y="-2" width="7" height="15"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="1200" width="40" height="40"/>
+      <Origin x="6" y="27"/>
+      <Hitbox x="-3" y="-2" width="7" height="15"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="1200" width="40" height="40"/>
+      <Origin x="6" y="27"/>
+      <Hitbox x="-3" y="-2" width="7" height="15"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="1200" width="40" height="40"/>
+      <Origin x="6" y="28"/>
+      <Hitbox x="-3" y="-2" width="7" height="14"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="1200" width="40" height="40"/>
+      <Origin x="6" y="28"/>
+      <Hitbox x="-3" y="-2" width="7" height="15"></Hitbox>
+    </Frame>
+  </Animation>done
+  14<Animation Name="NeutralAerial" Speed="30" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="1240" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="9" y="-16" width="8" height="10"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="40" y="1240" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="7" y="-18" width="16" height="14"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="80" y="1240" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="7" y="-17" width="17" height="14"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="120" y="1240" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="7" y="-16" width="14" height="15"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="160" y="1240" width="40" height="40"/>
+      <Origin x="9" y="36"/>
+      <Hitbox x="7" y="-10" width="8" height="14"></Hitbox>
+    </Frame>
+    <Frame>
+      <SourceRectangle x="200" y="1240" width="40" height="40"/>
+      <Origin x="9" y="34"/>
+      <Hitbox x="3" y="-6" width="9" height="12"></Hitbox>
+    </Frame>
+  </Animation>done
+    <Animation Name="Stunned" Speed="0" Looping="false">
+    <Frame>
+      <SourceRectangle x="0" y="1280" width="40" height="40"/>
+      <Origin x="9" y="40"/>
+      <Hitbox x="0" y="0" width="0" height="0"></Hitbox>
+    </Frame>
+  </Animation>done
 </Character>

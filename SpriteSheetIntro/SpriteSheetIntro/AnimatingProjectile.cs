@@ -23,7 +23,7 @@ namespace SpriteSheetIntro
             this.animation = animation;
             SourceRectangle = animation.CurrentFrame.SourceRectangle;
             Origin = animation.CurrentFrame.Origin;
-            animation.AnimationFinished += new EventHandler(animation_AnimationFinished);
+            animation.AnimationFinished += new EventHandler<AnimationEventArgs>(animation_AnimationFinished);
         }
 
         void animation_AnimationFinished(object sender, EventArgs e)

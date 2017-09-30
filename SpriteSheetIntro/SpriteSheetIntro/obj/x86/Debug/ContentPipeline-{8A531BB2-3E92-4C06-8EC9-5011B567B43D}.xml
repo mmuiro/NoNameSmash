@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\dude_animation_sheet.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\dude_animation_sheet.xnb</Output>
       <Time>2015-06-27T10:16:28-07:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\E-sword.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\E-sword.xnb</Output>
       <Time>2015-06-27T10:28:48-07:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\cs.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\cs.xnb</Output>
       <Time>2015-09-05T14:08:26-07:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\cs1.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\cs1.xnb</Output>
       <Time>2015-09-12T14:09:28-07:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\sword.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\sword.xnb</Output>
       <Time>2015-09-12T14:31:58-07:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\ex.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\ex.xnb</Output>
       <Time>2016-01-16T14:38:18-08:00</Time>
     </Item>
     <Item>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\COMBO1.xnb</Output>
-      <Time>2016-07-23T14:26:28-07:00</Time>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\COMBO1.xnb</Output>
+      <Time>2017-02-18T10:10:18.049485-08:00</Time>
     </Item>
     <Item>
       <Source>platform2.png</Source>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\platform2.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\platform2.xnb</Output>
       <Time>2016-04-16T14:22:56-07:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\platform3.xnb</Output>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\platform3.xnb</Output>
       <Time>2016-07-09T14:19:32-07:00</Time>
     </Item>
     <Item>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformblockLarge.xnb</Output>
-      <Time>2016-07-30T10:20:22-07:00</Time>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformblockLarge.xnb</Output>
+      <Time>2016-09-24T14:19:56.5403533-07:00</Time>
     </Item>
     <Item>
       <Source>PlatformBlockMedium.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformBlockMedium.xnb</Output>
-      <Time>2016-07-30T10:15:38-07:00</Time>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformBlockMedium.xnb</Output>
+      <Time>2016-09-24T14:20:12.2132322-07:00</Time>
     </Item>
     <Item>
       <Source>PlatformMBlock.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformMBlock.xnb</Output>
-      <Time>2016-07-30T10:34:04-07:00</Time>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformMBlock.xnb</Output>
+      <Time>2016-09-24T14:20:23.4630301-07:00</Time>
     </Item>
     <Item>
       <Source>PlatformSLlayer.png</Source>
@@ -115,8 +115,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformSLlayer.xnb</Output>
-      <Time>2016-07-30T10:34:14-07:00</Time>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\PlatformSLlayer.xnb</Output>
+      <Time>2016-09-24T14:20:34.7006858-07:00</Time>
+    </Item>
+    <Item>
+      <Source>COMBO2.png</Source>
+      <Name>COMBO2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\COMBO2.xnb</Output>
+      <Time>2017-02-18T10:12:07.1077196-08:00</Time>
     </Item>
     <Item>
       <Source>font.spritefont</Source>
@@ -124,8 +133,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\font.xnb</Output>
-      <Time>2016-06-11T13:35:54-07:00</Time>
+      <Output>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2016-10-30T09:56:32.2204561-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -134,10 +143,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\JoeyLi\Documents\Visual Studio 2015\Projects\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntroContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\JoeyLi\Desktop\SpriteSheetIntro\SpriteSheetIntro\SpriteSheetIntro\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -166,7 +175,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-06-09T11:39:16.7979365-07:00</Value>
+        <Value>2017-04-13T20:11:02.6719448-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
